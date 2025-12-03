@@ -1,0 +1,93 @@
+# **Roadmap Frontend OneControl**
+
+### **Sprint 0 : Setup initial (1 semaine)**
+
+* Créer projet Vite + React.
+* Installer toutes les dépendances (tailwind, shadcn/ui, Zustand, React Query, Recharts/ECharts, Axios, JWT, lucide-react).
+* Configurer **Tailwind + shadcn/ui**.
+* Configurer **TypeScript**, ESLint, Prettier.
+* Configurer le **router React Router v6**.
+* Créer la structure de dossiers standard (`components/`, `features/`, `app/`, `pages/`, `services/`).
+
+---
+
+### **Sprint 1 : Auth & gestion des utilisateurs (1-2 semaines)**
+
+* Pages **Login / Register**.
+* Gestion JWT + refresh token avec Axios interceptors.
+* Zustand store pour gérer l’état utilisateur.
+* Composants de formulaire avec **React Hook Form + Zod**.
+* Gestion des erreurs et feedback utilisateur (notifications).
+
+---
+
+### **Sprint 2 : Dashboard principal (2-3 semaines)**
+
+* Layout principal (sidebar, topbar, content area).
+* Création des composants UI réutilisables (`Card`, `Button`, `ChartCard`, `KPI`).
+* Dashboard dynamique avec graphiques Recharts/ECharts.
+* Intégration avec **React Query** pour fetch des données du backend.
+* Filtres et sélection de période (ex : mois, trimestre, année).
+
+---
+
+### **Sprint 3 : Modules de données et import/export (2 semaines)**
+
+* Upload CSV / Excel pour données externes.
+* Intégration API (backend) avec React Query.
+* Prévisualisation des données avant import.
+* Validation des données côté frontend (React Hook Form + Zod).
+
+---
+
+### **Sprint 4 : Analyses prédictives & recommandations (2-3 semaines)**
+
+* Affichage des prédictions (CA, ventes, besoins stocks) via graphiques et KPI.
+* Simulation “et si…” pour tester différents scénarios.
+* Indicateurs colorés (vert/rouge) pour anomalies ou tendances négatives.
+
+---
+
+### **Sprint 5 : Alertes et notifications (1-2 semaines)**
+
+* Notifications en temps réel sur anomalies, seuils dépassés.
+* Système de badges ou pop-ups pour alertes importantes.
+* Historique des alertes.
+
+---
+
+### **Sprint 6 : Collaboration & rapports (1-2 semaines)**
+
+* Export des dashboards / rapports en PDF ou Excel.
+* Partage de dashboards avec d’autres utilisateurs.
+* Historique des décisions ou analyses.
+
+---
+
+### **Sprint 7 : Optimisation & PWA (1 semaine)**
+
+* Optimisation des performances (lazy loading, memo, suspense).
+* Mise en place de PWA pour mobile léger.
+* Tests unitaires et E2E (Cypress ou Playwright).
+
+---
+
+### **Sprint 8 : Lancement MVP (1 semaine)**
+
+* Ajustements finaux sur UI et UX.
+* Vérification responsive pour mobile/tablet.
+* Préparation du build production et déploiement.
+* Documentation frontend pour l’équipe (README, guides composants, hooks, store, query).
+
+---
+
+💡 **Résumé des priorités** :
+
+1. Auth & state management (JWT + Zustand)
+2. Dashboard avec graphiques dynamiques
+3. Import/export de données
+4. Prédictions et recommandations
+5. Alertes & notifications
+6. Collaboration & rapports
+7. Optimisation et PWA
+
